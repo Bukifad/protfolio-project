@@ -76,22 +76,26 @@ p {
   padding: 15px 30px;
   text-decoration: none;
 }
-.about {
+.container {
   padding: 160px 20px;
 }
-.about h1 {
+.container h1 {
   font-size: 64px;
   line-height: 80px;
 }
-.about h2 {
+.container h2 {
   font-size: 18px;
   /* font-weight: bold; */
   font-family: var(--default-font-family);
 }
-.about p {
+.container p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+}
+.container h3 {
+  font-size: 24px;
+  font-family: var(--default-font-family);
 }
 .content {
   margin: 50px;
@@ -111,7 +115,7 @@ p {
   .sub-head {
     font-size: 44px;
   }
-  .about {
+  .container {
     text-align: center;
     padding: 0;
   }
