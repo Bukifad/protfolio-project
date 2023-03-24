@@ -41,7 +41,7 @@ nav a {
 }
 
 nav a :hover,
-nav li .active a {
+nav li a .active {
   color: var(--branding-color);
 }
 .logo {
@@ -50,7 +50,7 @@ nav li .active a {
 .hero {
   text-align: center;
   background-color: var(--secondary-color);
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .hero h1 {
   font-size: 96px;
@@ -105,7 +105,7 @@ nav li .active a {
   text-decoration: none;
 }
 .container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .container h1 {
   font-size: 64px;
@@ -165,9 +165,9 @@ nav li .active a {
     text-align: center;
     padding: 0;
   }
-  .hero {
+  /* .hero {
     padding: 80px 20px;
-  }
+  } */
   .hero h1 {
     font-size: 60px;
     /* line-height: 2; */
